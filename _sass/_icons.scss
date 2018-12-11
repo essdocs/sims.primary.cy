@@ -1,0 +1,725 @@
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
+  
+  .icon-id-card {
+    width: 0.9642857142857143em;
+  }
+  
+  .icon-bullhorn {
+    width: 1.1071428571428574em;
+  }
+  
+  .icon-sign-out {
+    width: 0.875em;
+  }
+  
+  .icon-user {
+    width: 0.7142857142857144em;
+  }
+  
+  .icon-child {
+    width: 0.75390625em;
+  }
+  
+  .icon-parent {
+    width: 1.0714285714285716em;
+  }
+  
+  .icon-teacher {
+    width: 1.4921875em;
+  }
+  
+  .icon-class {
+    width: 1.154296875em;
+  }
+  
+  .icon-takeregister {
+    width: 1.3076171875em;
+  }
+  
+  .icon-pupilrecord {
+    width: 1.3076171875em;
+  }
+  
+  .icon-classlog {
+    width: 1.2142857142857149em;
+  }
+  
+  .icon-quicknote {
+    width: 1.3388671875em;
+  }
+  
+  .icon-open1 {
+    width: 0.7142857142857144em;
+  }
+  
+  .icon-expand2 {
+    width: 0.9072265625em;
+  }
+  
+  .icon-paperclip {
+    width: 0.7998046875em;
+  }
+  
+  .icon-cell-dropdown {
+    width: 1.3232421875em;
+  }
+  
+  .icon-dnd {
+    width: 0.4306640625em;
+  }
+  
+  .icon-dock {
+    width: 1.1787109375em;
+  }
+  
+  .icon-undock {
+    width: 1.1787109375em;
+  }
+  
+  .icon-next-cell {
+    width: 0.892578125em;
+  }
+  
+  .icon-prev-cell {
+    width: 0.892578125em;
+  }
+  
+  .icon-instructions {
+    width: 1.25em;
+  }
+  
+  .icon-instructions-off {
+    width: 1.0478515625em;
+  }
+  
+  .icon-column-select {
+    width: 1.4375em;
+  }
+  
+  .icon-column-add {
+    width: 1.1875em;
+  }
+  
+  .icon-column-unknown {
+    width: 1.4375em;
+  }
+  
+  .icon-person-unknown {
+    width: 1.642578125em;
+  }
+  
+  .icon-person-select {
+    width: 2em;
+  }
+  
+  .icon-person-many-match {
+    width: 2.111328125em;
+  }
+  
+  .icon-person-rejected {
+    width: 0.9285714285714286em;
+  }
+  
+  .icon-insert-between {
+    width: 1.357421875em;
+  }
+  
+  .icon-dnd-horizontal {
+    width: 1.0020926339285712em;
+  }
+  
+  .icon-filter {
+    width: 0.6785714285714287em;
+  }
+  
+  .icon-filter-outline {
+    width: 0.6785714285714287em;
+  }
+  
+  .icon-send-later {
+    width: 0.9638671875em;
+  }
+  
+  .icon-single-person-action {
+    width: 1.6068638392857142em;
+  }
+  
+  .icon-multiple-person-action {
+    width: 2.1781529017857144em;
+  }
+  
+  .icon-tooltipedit {
+    width: 1.5263671875em;
+  }
+  
+  .icon-NA {
+    width: 1.0855189732142843em;
+  }
+  
+  .icon-backspace {
+    width: 1.6923828125em;
+  }
+  
+  .icon-sort {
+    width: 0.5714285714285714em;
+  }
+  
+  .icon-caret-left {
+    width: 0.39285714285714285em;
+  }
+  
+  .icon-caret-right {
+    width: 0.3214285714285714em;
+  }
+  
+  .icon-caret-up {
+    width: 0.5714285714285714em;
+  }
+  
+  .icon-caret-down {
+    width: 0.5714285714285714em;
+  }
+  
+  .icon-sort-desc {
+    width: 0.5714285714285714em;
+  }
+  
+  .icon-sort-asc {
+    width: 0.5714285714285714em;
+  }
+  
+  .icon-angle-left {
+    width: 0.375em;
+  }
+  
+  .icon-angle-right {
+    width: 0.33928571428571425em;
+  }
+  
+  .icon-angle-up {
+    width: 0.6428571428571428em;
+  }
+  
+  .icon-angle-down {
+    width: 0.6428571428571428em;
+  }
+  
+  .icon-angle-double-left {
+    width: 0.5892857142857143em;
+  }
+  
+  .icon-angle-double-right {
+    width: 0.5535714285714285em;
+  }
+  
+  .icon-angle-double-up {
+    width: 0.6428571428571428em;
+  }
+  
+  .icon-angle-double-down {
+    width: 0.6428571428571428em;
+  }
+  
+  .icon-chevron-left {
+    width: 0.75em;
+  }
+  
+  .icon-chevron-right {
+    width: 0.6785714285714285em;
+  }
+  
+  .icon-long-arrow-left {
+    width: 1.0357142857142856em;
+  }
+  
+  .icon-long-arrow-right {
+    width: 0.9642857142857142em;
+  }
+  
+  .icon-long-arrow-down {
+    width: 0.42857142857142855em;
+  }
+  
+  .icon-long-arrow-up {
+    width: 0.42857142857142855em;
+  }
+  
+  .icon-arrow-left2 {
+    width: 0.8928571428571428em;
+  }
+  
+  .icon-arrow-right2 {
+    width: 0.8214285714285714em;
+  }
+  
+  .icon-arrow-up {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-arrow-down2 {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-chevron-circle-up {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-chevron-circle-down {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-arrow-circle-up {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-expand {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-refresh {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-rotate-left {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-level-up {
+    width: 0.5730714285714286em;
+  }
+  
+  .icon-sort-alpha-asc {
+    width: 0.9430714285714284em;
+  }
+  
+  .icon-sort-alpha-desc {
+    width: 0.9430714285714284em;
+  }
+  
+  .icon-sort-amount-asc {
+    width: 1.0162142857142857em;
+  }
+  
+  .icon-sort-amount-desc {
+    width: 1.0162142857142857em;
+  }
+  
+  .icon-sort-numeric-asc {
+    width: 0.8454285714285714em;
+  }
+  
+  .icon-sort-numeric-desc {
+    width: 0.8454285714285714em;
+  }
+  
+  .icon-toggle-off {
+    width: 1.1428571428571428em;
+  }
+  
+  .icon-toggle-on {
+    width: 1.1428571428571428em;
+  }
+  
+  .icon-asterisk {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-plus {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-minus2 {
+    width: 0.7857142857142857em;
+  }
+  
+  .icon-check-square-o {
+    width: 0.9324999999999999em;
+  }
+  
+  .icon-close2 {
+    width: 0.7857142857142857em;
+  }
+  
+  .icon-question {
+    width: 0.62em;
+  }
+  
+  .icon-question-circle {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-question-circle-o {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-exclamation {
+    width: 0.3571428571428571em;
+  }
+  
+  .icon-exclamation-circle {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-circle-thin {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-circle-o {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-circle {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-times-circle-o {
+    width: 0.9999999999999999em;
+  }
+  
+  .icon-arrow-circle-o-up {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-ban {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-plus-circle {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-times-circle {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-check-circle2 {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-square {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-check-square {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-plus-square {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-minus-square {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-square-o {
+    width: 0.7857142857142857em;
+  }
+  
+  .icon-plus-square-o {
+    width: 0.7857142857142857em;
+  }
+  
+  .icon-minus-square-o {
+    width: 0.7857142857142857em;
+  }
+  
+  .icon-search {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-search-plus {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-search-minus {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-pencil {
+    width: 0.8571428571428572em;
+  }
+  
+  .icon-sign-off {
+    width: 1.0005714285714284em;
+  }
+  
+  .icon-trash {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-flag {
+    width: 1.0357142857142856em;
+  }
+  
+  .icon-tag {
+    width: 0.8454285714285714em;
+  }
+  
+  .icon-tags {
+    width: 1.0597142857142856em;
+  }
+  
+  .icon-print {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-cloud-upload {
+    width: 1.0714285714285714em;
+  }
+  
+  .icon-cloud-download {
+    width: 1.0714285714285714em;
+  }
+  
+  .icon-cloud {
+    width: 1.0714285714285714em;
+  }
+  
+  .icon-folder {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-folder-o {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-folder-open {
+    width: 1.0485714285714285em;
+  }
+  
+  .icon-file {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-file-o {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-file-text-o {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-file-text {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-cut {
+    width: 0.9977857142857142em;
+  }
+  
+  .icon-thumb-tack {
+    width: 0.6428571428571428em;
+  }
+  
+  .icon-feed {
+    width: 0.7862857142857141em;
+  }
+  
+  .icon-bars {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-th-large {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-th {
+    width: 0.8571428571428572em;
+  }
+  
+  .icon-table {
+    width: 0.9285714285714286em;
+  }
+  
+  .icon-columns {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-columns-narrow {
+    width: 0.8571428571428572em;
+  }
+  
+  .icon-mobile {
+    width: 0.42857142857142855em;
+  }
+  
+  .icon-phone {
+    width: 0.7857142857142857em;
+  }
+  
+  .icon-chain-broken {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-eraser {
+    width: 1.0714285714285714em;
+  }
+  
+  .icon-ellipsis-h {
+    width: 0.7857142857142857em;
+  }
+  
+  .icon-paper-plane {
+    width: 1.0011428571428571em;
+  }
+  
+  .icon-paper-plane-o {
+    width: 1.0005714285714284em;
+  }
+  
+  .icon-clock-o {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-history {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-calendar {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-today {
+    width: 0.9285714285714286em;
+  }
+  
+  .icon-calendar-o {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-calendar-plus-o {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-calendar-clock {
+    width: 0.9285714285714286em;
+  }
+  
+  .icon-calendar-internet {
+    width: 0.9150390625em;
+  }
+  
+  .icon-chain {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-at {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-paint-brush {
+    width: 0.9988571428571428em;
+  }
+  
+  .icon-line-chart {
+    width: 1.1428571428571428em;
+  }
+  
+  .icon-bar-chart {
+    width: 1.1428571428571428em;
+  }
+  
+  .icon-male {
+    width: 0.5714285714285714em;
+  }
+  
+  .icon-user-plus {
+    width: 1.2142857142857144em;
+  }
+  
+  .icon-user-times {
+    width: 1.2857142857142865em;
+  }
+  
+  .icon-map-marker {
+    width: 0.5714285714285714em;
+  }
+  
+  .icon-Home {
+    width: 1.178571428571429em;
+  }
+  
+  .icon-automobile {
+    width: 1.1428571428571428em;
+  }
+  
+  .icon-truck {
+    width: 1.0357142857142856em;
+  }
+  
+  .icon-cutlery {
+    width: 0.7857142857142857em;
+  }
+  
+  .icon-shield {
+    width: 0.7142857142857142em;
+  }
+  
+  .icon-fire {
+    width: 0.7807142857142857em;
+  }
+  
+  .icon-rocket {
+    width: 0.9447857142857142em;
+  }
+  
+  .icon-camera {
+    width: 1.0714285714285714em;
+  }
+  
+  .icon-globe {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-lock {
+    width: 0.6428571428571428em;
+  }
+  
+  .icon-unlock {
+    width: 0.9285714285714285em;
+  }
+  
+  .icon-bell {
+    width: 0.7142857142857144em;
+  }
+  
+  .icon-bell-o {
+    width: 0.7142857142857144em;
+  }
+  
+  .icon-magic {
+    width: 0.9436428571428571em;
+  }
+  
+  .icon-bolt {
+    width: 0.5005714285714286em;
+  }
+  
+  .icon-cog {
+    width: 0.8571428571428571em;
+  }
+  
+  .icon-cogs {
+    width: 1.0714285714285714em;
+  }
+  
+  .icon-wrench {
+    width: 0.9391428571428571em;
+  }
+  

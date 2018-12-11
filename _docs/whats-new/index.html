@@ -1,0 +1,30 @@
+---
+layout: docs
+title: What's New
+---
+
+<p class="lead">
+  Learn about recently released features.
+</p>
+
+{%- assign selection = site.docs | where: 'whats-new', true | reverse -%}
+
+{%- for page in selection -%}
+  <article>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+    <div class="timestamp">{{page.date | date: "%A %d %b %Y"  }}</div>
+    <div>{{ page.content | strip_html | truncatewords: 20 }}</div>
+    <hr>
+  </article>
+{%- endfor -%}
+<section>
+  <h2>Older</h2>
+  <ul>
+    {%- assign selection = site.docs | where: 'whats-new', 'old' | reverse  -%}
+    {%- for page in selection -%}
+    <li>
+      <a href="{{page.url}}">{{page.title}}</a>
+    </li>
+    {%- endfor -%}
+    <ul>
+</section>

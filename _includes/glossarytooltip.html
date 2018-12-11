@@ -1,0 +1,8 @@
+{%- assign item = site.glossary  | where_exp:"item", "item.title == include.explain"  | first  -%}
+{::nomarkdown}<abbr data-html="true"
+tabindex="0"
+data-toggle="popover"
+data-trigger="click"
+data-placement="auto"
+title="{{item.title}}"
+data-content="{{item.content | markdownify | remove: '<p>' | remove: '</p>' | | replace: '"', "'" }}">{{item.title}}</abbr>{:/}

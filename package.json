@@ -1,0 +1,27 @@
+{
+  "name": "sims-documentation",
+  "description": "You can use the [editor on GitHub](https://github.com/essdocs/sims.primary.en/edit/master/README.md) to maintain and preview the content for your website in Markdown files.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essdocs/sims.primary.en.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/essdocs/sims.primary.en/issues"
+  },
+  "homepage": "https://github.com/essdocs/sims.primary.en#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}

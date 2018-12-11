@@ -1,0 +1,59 @@
+blockquote {
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  padding: $spacer;
+  padding-left: 3.5em;
+  margin: $spacer 0;
+  background-image: url(images/svg/info.svg);
+  background-size: 2em;
+  background-position: 1rem 1.2rem;
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+
+  border-radius: (1rem/2);
+  border: 1px solid;
+  line-height: 1.5rem;
+  position: relative;
+
+  border-color: #4A90E2;
+  background-color: rgb(239, 246, 255);
+
+
+  & p:before {
+    content: "Information";
+    font-weight: 900;
+    display: block;
+  }
+
+  &.tip {
+    background-image: url(images/svg/tip.svg);
+    border-color: #f5a623;
+    background-color: #fdf7e8;
+
+    & p:before {
+      content: "Tip";
+    }
+  }
+
+  &.note {
+    background-image: url(images/svg/note.svg);
+    border-color: #7ed321;
+    background-color: #e7f6f0;
+
+    & p:before {
+      content: "Note";
+    }
+  }
+
+  &.warning {
+    background-image: url(images/svg/warning.svg);
+    border-color: #f50057;
+    background-color: rgb(255, 232, 240);
+
+    & p:before {
+      content: "Warning";
+    }
+  }
+}

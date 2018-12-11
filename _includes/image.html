@@ -1,0 +1,4 @@
+<figure class="figure">
+    <img src="{{site.baseurl}}/images/{{include.url}}" class="figure-img img-fluid img-thumbnail" alt="{{ include.title }}">
+    <figcaption class="figure-caption">{{ include.title | markdownify | remove: '<p>' | remove: '</p>'}}</figcaption>
+</figure>

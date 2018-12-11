@@ -1,0 +1,1386 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-web {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-lightbulb-on {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-id-card {
+  width: 31px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.icon-bullhorn {
+  width: 35px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.icon-portrait {
+  width: 32px;
+  height: 32px;
+  background-position: -192px 0;
+}
+.icon-formula-column {
+  width: 32px;
+  height: 32px;
+  background-position: -240px 0;
+}
+.icon-formula-function {
+  width: 32px;
+  height: 32px;
+  background-position: -288px 0;
+}
+.icon-sign-out {
+  width: 28px;
+  height: 32px;
+  background-position: -336px 0;
+}
+.icon-close {
+  width: 32px;
+  height: 32px;
+  background-position: -384px 0;
+}
+.icon-SEN {
+  width: 32px;
+  height: 32px;
+  background-position: -432px 0;
+}
+.icon-move-down {
+  width: 32px;
+  height: 32px;
+  background-position: -480px 0;
+}
+.icon-move-right {
+  width: 32px;
+  height: 32px;
+  background-position: -528px 0;
+}
+.icon-insert-column {
+  width: 32px;
+  height: 32px;
+  background-position: -576px 0;
+}
+.icon-formula {
+  width: 32px;
+  height: 32px;
+  background-position: -624px 0;
+}
+.icon-spinner {
+  width: 32px;
+  height: 32px;
+  background-position: -672px 0;
+}
+.icon-user {
+  width: 23px;
+  height: 32px;
+  background-position: -720px 0;
+}
+.icon-child {
+  width: 24px;
+  height: 32px;
+  background-position: 0 -48px;
+}
+.icon-parent {
+  width: 34px;
+  height: 32px;
+  background-position: -48px -48px;
+}
+.icon-teacher {
+  width: 48px;
+  height: 32px;
+  background-position: -96px -48px;
+}
+.icon-class {
+  width: 37px;
+  height: 32px;
+  background-position: -192px -48px;
+}
+.icon-takeregister {
+  width: 42px;
+  height: 32px;
+  background-position: -240px -48px;
+}
+.icon-pupilrecord {
+  width: 42px;
+  height: 32px;
+  background-position: -336px -48px;
+}
+.icon-classlog {
+  width: 39px;
+  height: 32px;
+  background-position: -432px -48px;
+}
+.icon-quicknote {
+  width: 43px;
+  height: 32px;
+  background-position: -480px -48px;
+}
+.icon-open1 {
+  width: 23px;
+  height: 32px;
+  background-position: -576px -48px;
+}
+.icon-export {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -48px;
+}
+.icon-expand2 {
+  width: 29px;
+  height: 32px;
+  background-position: -672px -48px;
+}
+.icon-paperclip {
+  width: 26px;
+  height: 32px;
+  background-position: -720px -48px;
+}
+.icon-undo {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -96px;
+}
+.icon-redo {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -96px;
+}
+.icon-cell-dropdown {
+  width: 42px;
+  height: 32px;
+  background-position: -96px -96px;
+}
+.icon-spreadsheet-view {
+  width: 32px;
+  height: 32px;
+  background-position: -192px -96px;
+}
+.icon-dnd {
+  width: 14px;
+  height: 32px;
+  background-position: -240px -96px;
+}
+.icon-dock {
+  width: 38px;
+  height: 32px;
+  background-position: -288px -96px;
+}
+.icon-undock {
+  width: 38px;
+  height: 32px;
+  background-position: -336px -96px;
+}
+.icon-next-cell {
+  width: 29px;
+  height: 32px;
+  background-position: -384px -96px;
+}
+.icon-prev-cell {
+  width: 29px;
+  height: 32px;
+  background-position: -432px -96px;
+}
+.icon-dropin {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -96px;
+}
+.icon-dropin-left {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -96px;
+}
+.icon-swap1 {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -96px;
+}
+.icon-swap2 {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -96px;
+}
+.icon-checkbox-blank {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -96px;
+}
+.icon-checkbox-marked {
+  width: 32px;
+  height: 32px;
+  background-position: -720px -96px;
+}
+.icon-checkbox-multiple-marked {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -144px;
+}
+.icon-checkbox-multiple-blank {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -144px;
+}
+.icon-check-circle-outline {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -144px;
+}
+.icon-check-circle {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -144px;
+}
+.icon-checkbox-multiple-marked-circle {
+  width: 32px;
+  height: 32px;
+  background-position: -192px -144px;
+}
+.icon-checkbox-multiple-blank-circle-outline {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -144px;
+}
+.icon-alarm-check {
+  width: 32px;
+  height: 32px;
+  background-position: -288px -144px;
+}
+.icon-content-duplicate {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -144px;
+}
+.icon-info {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -144px;
+}
+.icon-comment-account-outline {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -144px;
+}
+.icon-file-export {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -144px;
+}
+.icon-plus2 {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -144px;
+}
+.icon-minus {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -144px;
+}
+.icon-reset-zoom {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -144px;
+}
+.icon-fit-zoom {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -144px;
+}
+.icon-landscape {
+  width: 32px;
+  height: 32px;
+  background-position: -720px -144px;
+}
+.icon-fullscreen {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -192px;
+}
+.icon-fullscreen-exit {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -192px;
+}
+.icon-arrow-left {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -192px;
+}
+.icon-arrow-right {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -192px;
+}
+.icon-arrow-up-2 {
+  width: 32px;
+  height: 32px;
+  background-position: -192px -192px;
+}
+.icon-arrow-down {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -192px;
+}
+.icon-arrow-top-left {
+  width: 32px;
+  height: 32px;
+  background-position: -288px -192px;
+}
+.icon-arrow-top-right {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -192px;
+}
+.icon-arrow-bottom-left {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -192px;
+}
+.icon-arrow-bottom-right {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -192px;
+}
+.icon-loop-forward {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -192px;
+}
+.icon-loop-backward {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -192px;
+}
+.icon-instructions {
+  width: 40px;
+  height: 32px;
+  background-position: -576px -192px;
+}
+.icon-instructions-off {
+  width: 34px;
+  height: 32px;
+  background-position: -624px -192px;
+}
+.icon-list-select {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -192px;
+}
+.icon-list-add {
+  width: 32px;
+  height: 32px;
+  background-position: -720px -192px;
+}
+.icon-search-noresults {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -240px;
+}
+.icon-column-select {
+  width: 46px;
+  height: 32px;
+  background-position: -48px -240px;
+}
+.icon-column-add {
+  width: 38px;
+  height: 32px;
+  background-position: -144px -240px;
+}
+.icon-column-unknown {
+  width: 46px;
+  height: 32px;
+  background-position: -192px -240px;
+}
+.icon-column-rejected {
+  width: 32px;
+  height: 32px;
+  background-position: -288px -240px;
+}
+.icon-person-unknown {
+  width: 53px;
+  height: 32px;
+  background-position: -336px -240px;
+}
+.icon-person-select {
+  width: 64px;
+  height: 32px;
+  background-position: -432px -240px;
+}
+.icon-person-many-match {
+  width: 68px;
+  height: 32px;
+  background-position: -528px -240px;
+}
+.icon-person-rejected {
+  width: 30px;
+  height: 32px;
+  background-position: -624px -240px;
+}
+.icon-split {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -240px;
+}
+.icon-insert-between {
+  width: 43px;
+  height: 32px;
+  background-position: 0 -288px;
+}
+.icon-face-happy {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -288px;
+}
+.icon-face-sad {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -288px;
+}
+.icon-face-talking {
+  width: 32px;
+  height: 32px;
+  background-position: -192px -288px;
+}
+.icon-face-cool {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -288px;
+}
+.icon-dnd-horizontal {
+  width: 32px;
+  height: 32px;
+  background-position: -288px -288px;
+}
+.icon-measure {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -288px;
+}
+.icon-filter {
+  width: 22px;
+  height: 32px;
+  background-position: -384px -288px;
+}
+.icon-filter-outline {
+  width: 22px;
+  height: 32px;
+  background-position: -432px -288px;
+}
+.icon-tick {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -288px;
+}
+.icon-late {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -288px;
+}
+.icon-cake {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -288px;
+}
+.icon-schedule {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -288px;
+}
+.icon-send-later {
+  width: 31px;
+  height: 32px;
+  background-position: -672px -288px;
+}
+.icon-single-person-action {
+  width: 51px;
+  height: 32px;
+  background-position: 0 -336px;
+}
+.icon-multiple-person-action {
+  width: 70px;
+  height: 32px;
+  background-position: -96px -336px;
+}
+.icon-tooltipedit {
+  width: 49px;
+  height: 32px;
+  background-position: -192px -336px;
+}
+.icon-NA {
+  width: 35px;
+  height: 32px;
+  background-position: -288px -336px;
+}
+.icon-cross {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -336px;
+}
+.icon-table-edit {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -336px;
+}
+.icon-read-across {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -336px;
+}
+.icon-read-down {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -336px;
+}
+.icon-backspace {
+  width: 54px;
+  height: 32px;
+  background-position: -528px -336px;
+}
+.icon-sort {
+  width: 18px;
+  height: 32px;
+  background-position: -624px -336px;
+}
+.icon-caret-left {
+  width: 13px;
+  height: 32px;
+  background-position: -672px -336px;
+}
+.icon-caret-right {
+  width: 10px;
+  height: 32px;
+  background-position: -720px -336px;
+}
+.icon-caret-up {
+  width: 18px;
+  height: 32px;
+  background-position: 0 -384px;
+}
+.icon-caret-down {
+  width: 18px;
+  height: 32px;
+  background-position: -48px -384px;
+}
+.icon-sort-desc {
+  width: 18px;
+  height: 32px;
+  background-position: -96px -384px;
+}
+.icon-sort-asc {
+  width: 18px;
+  height: 32px;
+  background-position: -144px -384px;
+}
+.icon-angle-left {
+  width: 12px;
+  height: 32px;
+  background-position: -192px -384px;
+}
+.icon-angle-right {
+  width: 11px;
+  height: 32px;
+  background-position: -240px -384px;
+}
+.icon-angle-up {
+  width: 21px;
+  height: 32px;
+  background-position: -288px -384px;
+}
+.icon-angle-down {
+  width: 21px;
+  height: 32px;
+  background-position: -336px -384px;
+}
+.icon-angle-double-left {
+  width: 19px;
+  height: 32px;
+  background-position: -384px -384px;
+}
+.icon-angle-double-right {
+  width: 18px;
+  height: 32px;
+  background-position: -432px -384px;
+}
+.icon-angle-double-up {
+  width: 21px;
+  height: 32px;
+  background-position: -480px -384px;
+}
+.icon-angle-double-down {
+  width: 21px;
+  height: 32px;
+  background-position: -528px -384px;
+}
+.icon-chevron-left {
+  width: 24px;
+  height: 32px;
+  background-position: -576px -384px;
+}
+.icon-chevron-right {
+  width: 22px;
+  height: 32px;
+  background-position: -624px -384px;
+}
+.icon-chevron-up {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -384px;
+}
+.icon-chevron-down {
+  width: 32px;
+  height: 32px;
+  background-position: -720px -384px;
+}
+.icon-arrows-h {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -432px;
+}
+.icon-long-arrow-left {
+  width: 33px;
+  height: 32px;
+  background-position: -48px -432px;
+}
+.icon-long-arrow-right {
+  width: 31px;
+  height: 32px;
+  background-position: -96px -432px;
+}
+.icon-long-arrow-down {
+  width: 14px;
+  height: 32px;
+  background-position: -144px -432px;
+}
+.icon-long-arrow-up {
+  width: 14px;
+  height: 32px;
+  background-position: -192px -432px;
+}
+.icon-arrow-left2 {
+  width: 29px;
+  height: 32px;
+  background-position: -240px -432px;
+}
+.icon-arrow-right2 {
+  width: 26px;
+  height: 32px;
+  background-position: -288px -432px;
+}
+.icon-arrow-up {
+  width: 30px;
+  height: 32px;
+  background-position: -336px -432px;
+}
+.icon-arrow-down2 {
+  width: 30px;
+  height: 32px;
+  background-position: -384px -432px;
+}
+.icon-chevron-circle-up {
+  width: 27px;
+  height: 32px;
+  background-position: -432px -432px;
+}
+.icon-chevron-circle-down {
+  width: 27px;
+  height: 32px;
+  background-position: -480px -432px;
+}
+.icon-arrow-circle-up {
+  width: 27px;
+  height: 32px;
+  background-position: -528px -432px;
+}
+.icon-arrows {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -432px;
+}
+.icon-expand {
+  width: 27px;
+  height: 32px;
+  background-position: -624px -432px;
+}
+.icon-refresh {
+  width: 27px;
+  height: 32px;
+  background-position: -672px -432px;
+}
+.icon-rotate-left {
+  width: 27px;
+  height: 32px;
+  background-position: -720px -432px;
+}
+.icon-mail-reply {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -480px;
+}
+.icon-mail-forward {
+  width: 32px;
+  height: 32px;
+  background-position: -48px -480px;
+}
+.icon-level-up {
+  width: 18px;
+  height: 32px;
+  background-position: -96px -480px;
+}
+.icon-sort-alpha-asc {
+  width: 30px;
+  height: 32px;
+  background-position: -144px -480px;
+}
+.icon-sort-alpha-desc {
+  width: 30px;
+  height: 32px;
+  background-position: -192px -480px;
+}
+.icon-sort-amount-asc {
+  width: 33px;
+  height: 32px;
+  background-position: -240px -480px;
+}
+.icon-sort-amount-desc {
+  width: 33px;
+  height: 32px;
+  background-position: -288px -480px;
+}
+.icon-sort-numeric-asc {
+  width: 27px;
+  height: 32px;
+  background-position: -336px -480px;
+}
+.icon-sort-numeric-desc {
+  width: 27px;
+  height: 32px;
+  background-position: -384px -480px;
+}
+.icon-toggle-off {
+  width: 37px;
+  height: 32px;
+  background-position: -432px -480px;
+}
+.icon-toggle-on {
+  width: 37px;
+  height: 32px;
+  background-position: -480px -480px;
+}
+.icon-asterisk {
+  width: 30px;
+  height: 32px;
+  background-position: -528px -480px;
+}
+.icon-plus {
+  width: 27px;
+  height: 32px;
+  background-position: -576px -480px;
+}
+.icon-minus2 {
+  width: 25px;
+  height: 32px;
+  background-position: -624px -480px;
+}
+.icon-check {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -480px;
+}
+.icon-check-square-o {
+  width: 30px;
+  height: 32px;
+  background-position: -720px -480px;
+}
+.icon-close2 {
+  width: 25px;
+  height: 32px;
+  background-position: 0 -528px;
+}
+.icon-question {
+  width: 20px;
+  height: 32px;
+  background-position: -48px -528px;
+}
+.icon-question-circle {
+  width: 30px;
+  height: 32px;
+  background-position: -96px -528px;
+}
+.icon-question-circle-o {
+  width: 30px;
+  height: 32px;
+  background-position: -144px -528px;
+}
+.icon-exclamation {
+  width: 11px;
+  height: 32px;
+  background-position: -192px -528px;
+}
+.icon-exclamation-triangle {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -528px;
+}
+.icon-exclamation-circle {
+  width: 27px;
+  height: 32px;
+  background-position: -288px -528px;
+}
+.icon-circle-o-notch {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -528px;
+}
+.icon-circle-thin {
+  width: 27px;
+  height: 32px;
+  background-position: -384px -528px;
+}
+.icon-circle-o {
+  width: 27px;
+  height: 32px;
+  background-position: -432px -528px;
+}
+.icon-circle {
+  width: 27px;
+  height: 32px;
+  background-position: -480px -528px;
+}
+.icon-times-circle-o {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -528px;
+}
+.icon-arrow-circle-o-up {
+  width: 27px;
+  height: 32px;
+  background-position: -576px -528px;
+}
+.icon-ban {
+  width: 27px;
+  height: 32px;
+  background-position: -624px -528px;
+}
+.icon-plus-circle {
+  width: 27px;
+  height: 32px;
+  background-position: -672px -528px;
+}
+.icon-times-circle {
+  width: 27px;
+  height: 32px;
+  background-position: -720px -528px;
+}
+.icon-check-circle2 {
+  width: 27px;
+  height: 32px;
+  background-position: 0 -576px;
+}
+.icon-square {
+  width: 27px;
+  height: 32px;
+  background-position: -48px -576px;
+}
+.icon-check-square {
+  width: 27px;
+  height: 32px;
+  background-position: -96px -576px;
+}
+.icon-plus-square {
+  width: 27px;
+  height: 32px;
+  background-position: -144px -576px;
+}
+.icon-minus-square {
+  width: 27px;
+  height: 32px;
+  background-position: -192px -576px;
+}
+.icon-square-o {
+  width: 25px;
+  height: 32px;
+  background-position: -240px -576px;
+}
+.icon-plus-square-o {
+  width: 25px;
+  height: 32px;
+  background-position: -288px -576px;
+}
+.icon-minus-square-o {
+  width: 25px;
+  height: 32px;
+  background-position: -336px -576px;
+}
+.icon-search {
+  width: 30px;
+  height: 32px;
+  background-position: -384px -576px;
+}
+.icon-search-plus {
+  width: 30px;
+  height: 32px;
+  background-position: -432px -576px;
+}
+.icon-search-minus {
+  width: 30px;
+  height: 32px;
+  background-position: -480px -576px;
+}
+.icon-pencil {
+  width: 27px;
+  height: 32px;
+  background-position: -528px -576px;
+}
+.icon-sign-off {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -576px;
+}
+.icon-envelope {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -576px;
+}
+.icon-envelope-o {
+  width: 32px;
+  height: 32px;
+  background-position: -672px -576px;
+}
+.icon-trash {
+  width: 27px;
+  height: 32px;
+  background-position: -720px -576px;
+}
+.icon-flag {
+  width: 33px;
+  height: 32px;
+  background-position: 0 -624px;
+}
+.icon-tag {
+  width: 27px;
+  height: 32px;
+  background-position: -48px -624px;
+}
+.icon-tags {
+  width: 34px;
+  height: 32px;
+  background-position: -96px -624px;
+}
+.icon-eye {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -624px;
+}
+.icon-eye-slash {
+  width: 32px;
+  height: 32px;
+  background-position: -192px -624px;
+}
+.icon-comment {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -624px;
+}
+.icon-comment-o {
+  width: 32px;
+  height: 32px;
+  background-position: -288px -624px;
+}
+.icon-commenting {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -624px;
+}
+.icon-comments {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -624px;
+}
+.icon-comment-question {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -624px;
+}
+.icon-comments-stacked {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -624px;
+}
+.icon-print {
+  width: 30px;
+  height: 32px;
+  background-position: -528px -624px;
+}
+.icon-cloud-upload {
+  width: 34px;
+  height: 32px;
+  background-position: -576px -624px;
+}
+.icon-cloud-download {
+  width: 34px;
+  height: 32px;
+  background-position: -624px -624px;
+}
+.icon-cloud {
+  width: 34px;
+  height: 32px;
+  background-position: -672px -624px;
+}
+.icon-archive {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -672px;
+}
+.icon-folder {
+  width: 30px;
+  height: 32px;
+  background-position: -48px -672px;
+}
+.icon-folder-o {
+  width: 30px;
+  height: 32px;
+  background-position: -96px -672px;
+}
+.icon-folder-open {
+  width: 34px;
+  height: 32px;
+  background-position: -144px -672px;
+}
+.icon-file {
+  width: 27px;
+  height: 32px;
+  background-position: -192px -672px;
+}
+.icon-file-o {
+  width: 27px;
+  height: 32px;
+  background-position: -240px -672px;
+}
+.icon-file-text-o {
+  width: 27px;
+  height: 32px;
+  background-position: -288px -672px;
+}
+.icon-file-text {
+  width: 27px;
+  height: 32px;
+  background-position: -336px -672px;
+}
+.icon-copy {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -672px;
+}
+.icon-cut {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -672px;
+}
+.icon-thumb-tack {
+  width: 21px;
+  height: 32px;
+  background-position: -480px -672px;
+}
+.icon-feed {
+  width: 25px;
+  height: 32px;
+  background-position: -528px -672px;
+}
+.icon-bars {
+  width: 27px;
+  height: 32px;
+  background-position: -576px -672px;
+}
+.icon-list {
+  width: 32px;
+  height: 32px;
+  background-position: -624px -672px;
+}
+.icon-th-large {
+  width: 30px;
+  height: 32px;
+  background-position: -672px -672px;
+}
+.icon-th {
+  width: 27px;
+  height: 32px;
+  background-position: -720px -672px;
+}
+.icon-table {
+  width: 30px;
+  height: 32px;
+  background-position: 0 -720px;
+}
+.icon-columns {
+  width: 27px;
+  height: 32px;
+  background-position: -48px -720px;
+}
+.icon-columns-narrow {
+  width: 27px;
+  height: 32px;
+  background-position: -96px -720px;
+}
+.icon-mobile {
+  width: 14px;
+  height: 32px;
+  background-position: -144px -720px;
+}
+.icon-phone {
+  width: 25px;
+  height: 32px;
+  background-position: -192px -720px;
+}
+.icon-chain-broken {
+  width: 30px;
+  height: 32px;
+  background-position: -240px -720px;
+}
+.icon-eraser {
+  width: 34px;
+  height: 32px;
+  background-position: -288px -720px;
+}
+.icon-ellipsis-h {
+  width: 25px;
+  height: 32px;
+  background-position: -336px -720px;
+}
+.icon-empire {
+  width: 32px;
+  height: 32px;
+  background-position: -384px -720px;
+}
+.icon-paper-plane {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -720px;
+}
+.icon-paper-plane-o {
+  width: 32px;
+  height: 32px;
+  background-position: -480px -720px;
+}
+.icon-clock-o {
+  width: 27px;
+  height: 32px;
+  background-position: -528px -720px;
+}
+.icon-history {
+  width: 27px;
+  height: 32px;
+  background-position: -576px -720px;
+}
+.icon-calendar {
+  width: 30px;
+  height: 32px;
+  background-position: -624px -720px;
+}
+.icon-today {
+  width: 30px;
+  height: 32px;
+  background-position: -672px -720px;
+}
+.icon-calendar-o {
+  width: 30px;
+  height: 32px;
+  background-position: -720px -720px;
+}
+.icon-calendar-plus-o {
+  width: 30px;
+  height: 32px;
+  background-position: 0 -768px;
+}
+.icon-calendar-clock {
+  width: 30px;
+  height: 32px;
+  background-position: -48px -768px;
+}
+.icon-schedules {
+  width: 32px;
+  height: 32px;
+  background-position: -96px -768px;
+}
+.icon-calendars {
+  width: 32px;
+  height: 32px;
+  background-position: -144px -768px;
+}
+.icon-calendar-internet {
+  width: 29px;
+  height: 32px;
+  background-position: -192px -768px;
+}
+.icon-chain {
+  width: 30px;
+  height: 32px;
+  background-position: -240px -768px;
+}
+.icon-at {
+  width: 27px;
+  height: 32px;
+  background-position: -288px -768px;
+}
+.icon-paint-brush {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -768px;
+}
+.icon-line-chart {
+  width: 37px;
+  height: 32px;
+  background-position: -384px -768px;
+}
+.icon-dashboard {
+  width: 32px;
+  height: 32px;
+  background-position: -432px -768px;
+}
+.icon-bar-chart {
+  width: 37px;
+  height: 32px;
+  background-position: -480px -768px;
+}
+.icon-male {
+  width: 18px;
+  height: 32px;
+  background-position: -528px -768px;
+}
+.icon-user-plus {
+  width: 39px;
+  height: 32px;
+  background-position: -576px -768px;
+}
+.icon-user-times {
+  width: 41px;
+  height: 32px;
+  background-position: -624px -768px;
+}
+.icon-map {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -816px;
+}
+.icon-map-marker {
+  width: 18px;
+  height: 32px;
+  background-position: -48px -816px;
+}
+.icon-Home {
+  width: 38px;
+  height: 32px;
+  background-position: -96px -816px;
+}
+.icon-automobile {
+  width: 37px;
+  height: 32px;
+  background-position: -144px -816px;
+}
+.icon-truck {
+  width: 33px;
+  height: 32px;
+  background-position: -192px -816px;
+}
+.icon-futbol-o {
+  width: 32px;
+  height: 32px;
+  background-position: -240px -816px;
+}
+.icon-cutlery {
+  width: 25px;
+  height: 32px;
+  background-position: -288px -816px;
+}
+.icon-medkit {
+  width: 32px;
+  height: 32px;
+  background-position: -336px -816px;
+}
+.icon-shield {
+  width: 23px;
+  height: 32px;
+  background-position: -384px -816px;
+}
+.icon-fire {
+  width: 25px;
+  height: 32px;
+  background-position: -432px -816px;
+}
+.icon-rocket {
+  width: 30px;
+  height: 32px;
+  background-position: -480px -816px;
+}
+.icon-heart {
+  width: 32px;
+  height: 32px;
+  background-position: -528px -816px;
+}
+.icon-heart-o {
+  width: 32px;
+  height: 32px;
+  background-position: -576px -816px;
+}
+.icon-camera {
+  width: 34px;
+  height: 32px;
+  background-position: -624px -816px;
+}
+.icon-globe {
+  width: 27px;
+  height: 32px;
+  background-position: -672px -816px;
+}
+.icon-lock {
+  width: 21px;
+  height: 32px;
+  background-position: -720px -816px;
+}
+.icon-unlock {
+  width: 30px;
+  height: 32px;
+  background-position: 0 -864px;
+}
+.icon-bell {
+  width: 23px;
+  height: 32px;
+  background-position: -48px -864px;
+}
+.icon-bell-o {
+  width: 23px;
+  height: 32px;
+  background-position: -96px -864px;
+}
+.icon-magic {
+  width: 30px;
+  height: 32px;
+  background-position: -144px -864px;
+}
+.icon-bolt {
+  width: 16px;
+  height: 32px;
+  background-position: -192px -864px;
+}
+.icon-cog {
+  width: 27px;
+  height: 32px;
+  background-position: -240px -864px;
+}
+.icon-cogs {
+  width: 34px;
+  height: 32px;
+  background-position: -288px -864px;
+}
+.icon-wrench {
+  width: 30px;
+  height: 32px;
+  background-position: -336px -864px;
+}
+

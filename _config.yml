@@ -1,0 +1,28 @@
+name: SIMS Primary Online Help
+
+markdown: kramdown
+
+permalink: none
+
+collections:
+  glossary:
+    output: false 
+  docs:
+    output: true
+  broadcast:
+    output: true
+  images:
+    output: true
+
+defaults:
+- scope:
+    path: ""
+    type: docs
+  values:
+    layout: docs
+
+exclude: ['_site', 'node_modules', 'src']
+
+sass:
+  sass_dir: _sass
+  style: compressed

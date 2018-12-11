@@ -1,0 +1,55 @@
+#help-nav {
+  width: 100%;
+  top: 0;
+  z-index: 1070;
+  background: $gray-800;
+  border-bottom: 1px solid $gray-900;
+  color: #fff;
+}
+
+.nav-bar {
+  padding: 0.5em 1em;
+  display: flex;
+}
+
+.nav-bar-header {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.33em;
+  z-index: -1;
+}
+
+.tile-link {
+  color: inherit;
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  & + & + & .tile {
+    background: $green;
+  }
+  & + & .tile {
+    background: $cyan;
+  }
+}
+
+.tile-size {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0 7px 0;
+}
+
+.tile {
+  background-color: $pink;
+  color: #fff;
+  border-radius: 6px;
+  display: flex;
+  padding: 13px;
+}
+
+.tile-image-outer {
+  flex: 0 0 auto;
+  margin-right: 13px;
+}

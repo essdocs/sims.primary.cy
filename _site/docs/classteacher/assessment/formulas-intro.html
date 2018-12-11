@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+  <!-- Required meta tags -->
+  <title>Formulas</title>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="/assets/css/main.css?1544545549295606000" rel="stylesheet">
+  <!-- Optional JavaScript -->
+
+
+</head>
+
+<body id="body">
+
+  <nav id="help-nav">   
+     <h1 class="nav-bar-header">SIMS Help</h1>
+    <div class="nav-bar">
+      <input type="image" src="/assets/css/images/svg/home.svg" onclick="location.href='/docs/'"
+        aria-label="Home" alt="Home">&nbsp;&nbsp;
+      <input type="image" src="/assets/css/images/svg/back.svg" onclick="javascript:history.back()" aria-label="Previous page"
+        alt="Previous page">&nbsp;&nbsp;
+      <input type="image" src="/assets/css/images/svg/next.svg" onclick="javascript: history.forward()" aria-label="Next page"
+        alt="Next page">
+    </div>
+
+  </nav>
+  <div id="help-body">
+    <div class="container-fluid" style="margin-top: 1rem">
+      <section class="docs">
+  <article>
+    <h1>Formulas</h1>
+    <p>A formula performs calculations or other actions on the data in your Marksheet.</p>
+
+<p>Formula columns are indicated by an <img class="img-inline" src="/images/icons/formula-function.svg" width="14" alt="Formula Icon" /> symbol in the column header.</p>
+
+<p>To see details of the formula, open the <abbr data-html="true"
+tabindex="0"
+data-toggle="popover"
+data-trigger="click"
+data-placement="auto"
+title="Column Menu"
+data-content="Actions that can be performed on a column.
+<img src='/images/shots/columnmenu.png' title='Column Menu' />
+">Column Menu</abbr> and click <img class="img-inline" src="/images/icons/formula.svg" width="14" alt="Take Formula" /> <strong>View Formula</strong>.</p>
+
+<p>A formula can contain any or all of the following: functions, references, operators, and constants.</p>
+
+<h2 id="functions">Functions</h2>
+
+<p>Functions are predefined formulas that do calculations by using values passed in, called arguments.</p>
+
+<ul>
+  <li><a href="functions/gradetally">GRADETALLY</a></li>
+  <li><a href="functions/if">IF</a></li>
+  <li><a href="functions/large">LARGE</a></li>
+  <li><a href="functions/markstograde">MARKSTOGRADE</a></li>
+  <li><a href="functions/max">MAX</a></li>
+  <li><a href="functions/mean">MEAN</a></li>
+  <li><a href="functions/median">MEDIAN</a></li>
+  <li><a href="functions/percentage">PERCENT</a></li>
+  <li><a href="functions/position">POSITION</a></li>
+  <li><a href="functions/range">RANGE</a></li>
+</ul>
+
+<h2 id="operator">Operator</h2>
+
+<p>Operators specify the type of calculation that you want to perform on the Assessment.</p>
+
+<p>There are two different types of calculation operators: arithmetic and comparison.</p>
+
+<h3 id="arithmetic-operators">Arithmetic operators</h3>
+
+<p>To perform mathematical operations, such as addition, subtraction, multiplication, or division; combine numbers use the following arithmetic operators.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Arithmetic operator</th>
+      <th>Meaning</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>+ (plus sign)</td>
+      <td>Addition</td>
+      <td>3+3</td>
+    </tr>
+    <tr>
+      <td>– (minus sign)</td>
+      <td>Subtraction Negation</td>
+      <td>3–1–1</td>
+    </tr>
+    <tr>
+      <td>* (asterisk)</td>
+      <td>Multiplication</td>
+      <td>3*3</td>
+    </tr>
+    <tr>
+      <td>/ (forward slash)</td>
+      <td>Division</td>
+      <td>3/3</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="comparison-operators">Comparison operators</h3>
+
+<p>You can compare two values with the following operators. Comparing two values returns either TRUE or FALSE.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Comparison operator</th>
+      <th>Meaning</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>= (equal sign)</td>
+      <td>Equal to</td>
+      <td>[Column 1]=[Column 2]</td>
+    </tr>
+    <tr>
+      <td>&gt; (greater than sign)</td>
+      <td>Greater than</td>
+      <td>[Column 1]&gt;[Column 2]</td>
+    </tr>
+    <tr>
+      <td>&lt; (less than sign)</td>
+      <td>Less than</td>
+      <td>[Column 1]&lt;[Column 2]</td>
+    </tr>
+    <tr>
+      <td>&gt;= (greater than or equal to sign)</td>
+      <td>Greater than or equal to</td>
+      <td>[Column 1]&gt;=[Column 2]</td>
+    </tr>
+    <tr>
+      <td>&lt;= (less than or equal to sign)</td>
+      <td>Less than or equal to</td>
+      <td>[Column 1]&lt;=[Column 2]</td>
+    </tr>
+    <tr>
+      <td>&lt;&gt; (not equal to sign)</td>
+      <td>Not equal to</td>
+      <td>[Column 1]&lt;&gt;[Column 2]</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="parentheses">Parentheses</h2>
+
+<p>There are cases where the order in which a calculation is performed affects the return value of the formula.</p>
+
+<p>To change the order of evaluation, enclose in parentheses the part of the formula to be calculated first. For example:</p>
+
+<pre><code class="language-math">1 + 2 * 3 = 7
+</code></pre>
+
+<p>In contrast, using parentheses to change the precedence you get:</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="mi">2</span><span class="p">)</span> <span class="o">*</span> <span class="mi">3</span> <span class="o">=</span> <span class="mi">9</span>
+</code></pre></div></div>
+
+  </article>
+  <br />
+  <hr />
+  <div>
+    <a
+      target="_blank"
+      href="https://github.com/TrautsNottus/trautsnottus.github.io/blob/master/_docs/classteacher/assessment/formulas-intro.md"
+      >Improve this page</a
+    >
+  </div>
+</section>
+
+    </div>
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.js" integrity="sha256-cVd/tGoi+gMVBrq5xd20ZA447xChtJWaESiLQc5LB1c="
+    crossorigin="anonymous"></script>
+    <script src="/assets/js/bundle.js"></script>
+  <script>
+    if (window.parent) {
+      window.parent.postMessage({ type: 'help', location: window.location.href }, '*');
+    }
+  </script>
+
+</body>
+
+</html>

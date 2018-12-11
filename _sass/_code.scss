@@ -1,0 +1,16 @@
+.highlight {
+  &.highlight {
+    margin: 1rem 0;
+  }
+  .n {
+    color: blue;
+  }
+
+  .p {
+    color: red;
+  }
+
+  .p ~ .n {
+    color: green;
+  }
+}

@@ -1,0 +1,18 @@
+.breadcrumbs {
+  margin-left: -5px;
+    width: 100%;
+    background-color: #ffffff;
+    list-style: none;
+    padding: 0;
+    font-size: $small-font-size;
+  }
+  .crumb {
+    float: left;
+  }
+  .crumb + .crumb {
+    padding: 0px;
+  }
+  .crumb + .crumb:before {
+    content: "›";
+    padding: 0 3px;
+  }

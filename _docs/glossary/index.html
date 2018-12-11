@@ -1,0 +1,13 @@
+---
+title: Glossary
+---
+<section>
+
+  {%- for page in site.glossary -%}
+  <article>
+    <h2>{{ page.title }}</h2>
+    {{ page.content | markdownify }}
+  </article>
+  {%- endfor -%}
+</section>
+

@@ -1,0 +1,60 @@
+ul {
+  list-style: disc outside;
+}
+ul,
+ol {
+  padding-left: ($grid-gutter-width / 2);
+}
+ol {
+  li {
+    padding-left: 0.2rem;
+  }
+}
+
+li + li {
+  margin-top: 0.3rem;
+}
+
+ol:not(.list) {
+  list-style-type: none;
+  padding-left: 0;
+  counter-reset: list;
+  li {
+    counter-increment: list;
+    position: relative;
+    margin-left: 2rem;
+  }
+  li + li {
+    margin-top: 1rem;
+  }
+
+  li:before {
+    content: counter(list);
+    background-color: $purple;
+    width: 1.6rem;
+    line-height: 1.6rem;
+    border-radius: 4px;
+    background-clip: padding-box;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: -2rem;
+  }
+
+  &[start="2"] {
+    counter-reset: list 1;
+  }
+
+  &[start="3"] {
+    counter-reset: list 2;
+  }
+
+  &[start="4"] {
+    counter-reset: list 3;
+  }
+
+  &[start="5"] {
+    counter-reset: list 5;
+  }
+}

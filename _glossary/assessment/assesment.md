@@ -1,0 +1,1 @@
+Assessment is the collection, analysis of information about pupils skills and personal capabilities.

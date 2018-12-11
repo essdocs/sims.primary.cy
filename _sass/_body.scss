@@ -1,0 +1,15 @@
+#body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#help-nav {
+  position: relative;
+  flex: none;
+}
+
+#help-body {
+  overflow-y: auto;
+  flex: 1 1 auto;
+}

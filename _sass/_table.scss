@@ -1,0 +1,15 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid $gray-400;
+  margin-bottom: 2rem;
+}
+
+th,
+td {
+  padding: 0.3rem 0.75rem;
+  border: 1px solid $gray-400;
+  border-width: 0 1px 1px 0;
+}
+th {
+  vertical-align: bottom;
+}

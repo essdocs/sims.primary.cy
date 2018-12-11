@@ -1,0 +1,33 @@
+{%- capture page_url -%}{{ page.url | remove: "index.html"}}{%- endcapture -%}
+{%- assign splitted_url_parts = page_url | split: '/' -%}
+{%- capture forLoopMaxInt -%}{{ splitted_url_parts.size : | minus: 1}}{%- endcapture -%}
+{%- assign cnt = forLoopMaxInt | plus: 0 -%}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumbs clearfix">
+        {%- for i in (1..forLoopMaxInt) -%}
+            {%- capture current_breadcrumb_md_url -%}{{next_prepender}}/{{ splitted_url_parts[i]}}{%- endcapture -%}
+            {%- capture next_prepender -%}{{next_prepender}}/{{ splitted_url_parts[i] }}{%- endcapture -%}
+            {%- for breadcrumb_page in site.documents -%}  
+                {%- capture current_bread_with_index -%}{{current_breadcrumb_md_url}}/index.html{%- endcapture -%}
+                {%- if current_breadcrumb_md_url == breadcrumb_page.url  or (current_bread_with_index == breadcrumb_page.url) -%}                
+                {%- assign j = forLoopMaxInt | plus: 0 -%}
+                {%- capture breadcrumb_page_page_url_without_index_html -%}
+                    {{ breadcrumb_page.url | remove: "index.html" }}
+                {%-  endcapture -%}
+                {%- capture breadcrumb_text -%}
+                    {%- if breadcrumb_page.breadcrumb -%} 
+                        {{breadcrumb_page.breadcrumb}} 
+                    {%- else -%}         
+                        {{breadcrumb_page.title}} 
+                    {%- endif -%}
+                {%- endcapture -%}
+                    {%- if i == j -%}
+                        <li class="crumb active" aria-current="page" data-url="{{site.baseurl}}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_text}}</li>
+                    {%- else if -%}               
+                        <li class="crumb"><a href="{{site.baseurl}}{{breadcrumb_page_page_url_without_index_html}}">{{breadcrumb_text}}</a></li>         
+                    {%- endif -%}
+                {%- endif -%}
+            {%- endfor -%}
+        {%- endfor -%}
+    </ol>
+</nav>

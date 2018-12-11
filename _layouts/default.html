@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+
+<head>
+  <!-- Required meta tags -->
+  <title>{{ page.title }}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="{{ "/assets/css/main.css" | prepend: site.baseurl }}?{{site.time | date: '%s%N'}}" rel="stylesheet">
+  <!-- Optional JavaScript -->
+
+
+</head>
+
+<body id="body">
+
+  <nav id="help-nav">   
+     <h1 class="nav-bar-header">SIMS Help</h1>
+    <div class="nav-bar">
+      <input type="image" src="{{site.baseurl}}/assets/css/images/svg/home.svg" onclick="location.href='{{site.baseurl}}/docs/'"
+        aria-label="Home" alt="Home">&nbsp;&nbsp;
+      <input type="image" src="{{site.baseurl}}/assets/css/images/svg/back.svg" onclick="javascript:history.back()" aria-label="Previous page"
+        alt="Previous page">&nbsp;&nbsp;
+      <input type="image" src="{{site.baseurl}}/assets/css/images/svg/next.svg" onclick="javascript: history.forward()" aria-label="Next page"
+        alt="Next page">
+    </div>
+
+  </nav>
+  <div id="help-body">
+    <div class="container-fluid" style="margin-top: 1rem">
+      {{ content }}
+    </div>
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.js" integrity="sha256-cVd/tGoi+gMVBrq5xd20ZA447xChtJWaESiLQc5LB1c="
+    crossorigin="anonymous"></script>
+    <script src="{{ "/assets/js/bundle.js" | prepend: site.baseurl }}"></script>
+  <script>
+    if (window.parent) {
+      window.parent.postMessage({ type: 'help', location: window.location.href }, '*');
+    }
+  </script>
+
+</body>
+
+</html>
